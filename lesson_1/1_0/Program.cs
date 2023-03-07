@@ -1,6 +1,6 @@
 ﻿//1. напишите программу которая на вход принимает число 
 // и выдает его квадрат(число умноженное само на себя)
-Console.WriteLine("write a number: ");
+// Console.WriteLine("write a number: ");
 
-int num = int.Parse(Console.ReadLine()!); (!) //означает не беспокойся на счет пустой строки
-Console.WriteLine(num * num);     // parse -это преобразования из типа инт в интджер
+// int num = int.Parse(Console.ReadLine()!); (!) //означает не беспокойся на счет пустой строки
+// Console.WriteLine(num * num);     // parse -это преобразования из типа инт в интджер
