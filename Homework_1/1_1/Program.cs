@@ -18,3 +18,7 @@ else if(n1 < n2)
 {
     Console.WriteLine("The second number is greater than the first: ");
 }
+else
+{
+      Console.WriteLine("числа равны");
+}
