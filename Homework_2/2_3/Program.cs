@@ -5,3 +5,5 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 // ;
+Сonsole.WriteLine("int numbers");
+
