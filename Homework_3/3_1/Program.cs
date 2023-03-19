@@ -9,7 +9,7 @@
 // 23432 -> да
 
 Console.Write("Введите пятизначное число: ");
-string number = Console.ReadLine()!;
+string number =  Console.ReadLine();
 
 void CheckingNumber(string number)
 {
@@ -17,7 +17,7 @@ void CheckingNumber(string number)
   {
     Console.WriteLine($"Число: {number} - палиндром.");
   }
-  else Console.WriteLine($"Число: {number} - НЕ палиндром.");
+  else Console.WriteLine($"Число: {number} - не палиндром.");
 }
 if (number!.Length == 5)
 {
