@@ -16,4 +16,4 @@ String NumSec(int num)
     return $"{num / 10 % 10 }";
     return "The number is not three -digit!";
 }
-Console.WriteLine(NumSec (int.Parse(Console.ReadLine()))!);
+Console.WriteLine(NumSec (int.Parse(Console.ReadLine()!)));

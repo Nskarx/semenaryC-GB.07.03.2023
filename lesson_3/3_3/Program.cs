@@ -21,55 +21,55 @@ Squares(num);
 
 // 2 вариант
 
-void Squares(int n)
-{
-    double[] nums = new double[n];
-    int index = 0;
+// void Squares(int n)
+// {
+//     double[] nums = new double[n];
+//     int index = 0;
 
-    Console.Write($"{n} -> ");
+//     Console.Write($"{n} -> ");
 
-    while (index < n)
-    {
-        nums[index] = Math.Pow((index + 1), 2);
-        Console.Write($"{nums[index]}, ");
-        index += 1;
-    }    
-    Console.WriteLine();
-}
+//     while (index < n)
+//     {
+//         nums[index] = Math.Pow((index + 1), 2);
+//         Console.Write($"{nums[index]}, ");
+//         index += 1;
+//     }    
+//     Console.WriteLine();
+// }
 
-int num = int.Parse(Console.ReadLine()!);
-Squares(num);
+// int num = int.Parse(Console.ReadLine()!);
+// Squares(num);
 
 
-// 3 вариант
+// // 3 вариант
 
-double[] Squares(int n)
-{
-    double[] nums = new double[n];
-    int index = 0;
+// double[] Squares(int n)
+// {
+//     double[] nums = new double[n];
+//     int index = 0;
 
-    while (index < n)
-    {
-        nums[index] = Math.Pow((index + 1), 2);
-        index += 1;
-    }
+//     while (index < n)
+//     {
+//         nums[index] = Math.Pow((index + 1), 2);
+//         index += 1;
+//     }
 
-    return nums;
-}
+//     return nums;
+// }
 
-void PrintList(int num)
-{
-    double[] arr = Squares(num); 
-    int index = 0;
+// void PrintList(int num)
+// {
+//     double[] arr = Squares(num); 
+//     int index = 0;
     
-    Console.Write($"{num} -> ");
+//     Console.Write($"{num} -> ");
 
-    while (index < arr.Length)
-    {
-        Console.Write($"{arr[index]}, ");
-        index += 1;
-    }
-}
+//     while (index < arr.Length)
+//     {
+//         Console.Write($"{arr[index]}, ");
+//         index += 1;
+//     }
+// }
 
-int num = int.Parse(Console.ReadLine()!);
-PrintList(num);
+// int num = int.Parse(Console.ReadLine()!);
+// PrintList(num);
