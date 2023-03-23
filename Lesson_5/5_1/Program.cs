@@ -3,11 +3,11 @@
 // отрицательные, и наоборот.
 // [-4, -8, 8, 2] -> [4, 8, -8, -2]
 
-Console.Write("РљРѕР»-РІРѕ СЌР»РµРјРµРЅС‚РѕРІ:");
+Console.Write("Количество элементов:");
 	int count =int.Parse(Console.ReadLine()!);
-	Console.Write("РќР°С‡Р°Р»Рѕ РґРёР°РїРѕР·РѕРЅР°:");
+	Console.Write("Начало диапазона:");
 	int a =int.Parse(Console.ReadLine()!);
-	Console.Write("РљРѕРЅРµС† РґРёР°РїРѕР·РѕРЅР°:");
+	Console.Write("Конец диапазона:");
 	int b =int.Parse(Console.ReadLine()!);
 	
 	int[] MakeArray(int c, int m, int n){
