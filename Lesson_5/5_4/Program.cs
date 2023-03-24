@@ -6,22 +6,27 @@
 
 using System;
 
-class Program {
-    static void Main(string[] args) {
+class Program
+{
+    static void Main(string[] args)
+    {
         int[] arr = { 1, 2, 3, 4, 5 };
         int n = arr.Length;
         int[] result = new int[(n + 1) / 2];
 
-        for (int i = 0; i < n / 2; i++) {
+        for (int i = 0; i < n / 2; i++)
+        {
             result[i] = arr[i] * arr[n - i - 1];
         }
-        
-        if (n % 2 == 1) {
+
+        if (n % 2 == 1)
+        {
             result[(n - 1) / 2] = arr[n / 2];
         }
 
         Console.WriteLine("Произведения пар чисел в массиве:");
-        for (int i = 0; i < (n + 1) / 2; i++) {
+        for (int i = 0; i < (n + 1) / 2; i++)
+        {
             Console.Write($"{result[i]} ");
         }
     }
