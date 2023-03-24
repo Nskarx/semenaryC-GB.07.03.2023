@@ -39,4 +39,4 @@ Console.Write("РљРѕР»-РІРѕ СЌР»РµРјРµРЅС‚РѕРІ:");
 	Console.Write("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ:");
 	int n= int.Parse(Console.ReadLine()!);
 	
-	Console.WriteLine(FindNumber(array,n))
+	Console.WriteLine(FindNumber(array,n));
