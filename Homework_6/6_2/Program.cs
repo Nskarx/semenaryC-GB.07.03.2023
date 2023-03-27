@@ -8,23 +8,25 @@
 
 using System;
 
-class Program {
-  static void Main(string[] args) {
-    Console.WriteLine("Введите значение k1:");
-    double k1 = double.Parse(Console.ReadLine()!); // считываем значение k1
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Введите значение k1:");
+        double k1 = double.Parse(Console.ReadLine()!); // считываем значение k1
 
-    Console.WriteLine("Введите значение b1:");
-    double b1 = double.Parse(Console.ReadLine()!); // считываем значение b1
+        Console.WriteLine("Введите значение b1:");
+        double b1 = double.Parse(Console.ReadLine()!); // считываем значение b1
 
-    Console.WriteLine("Введите значение k2:");
-    double k2 = double.Parse(Console.ReadLine()!); // считываем значение k2
+        Console.WriteLine("Введите значение k2:");
+        double k2 = double.Parse(Console.ReadLine()!); // считываем значение k2
 
-    Console.WriteLine("Введите значение b2:");
-    double b2 = double.Parse(Console.ReadLine()!); // считываем значение b2
+        Console.WriteLine("Введите значение b2:");
+        double b2 = double.Parse(Console.ReadLine()!); // считываем значение b2
 
-    double x = (b2 - b1) / (k1 - k2); // находим x-координату точки пересечения
-    double y = k1 * x + b1; // находим y-координату точки пересечения
+        double x = (b2 - b1) / (k1 - k2); // находим x-координату точки пересечения
+        double y = k1 * x + b1; // находим y-координату точки пересечения
 
-    Console.WriteLine($"Точка пересечения: ({x}, {y})");
-  }
+        Console.WriteLine($"Точка пересечения: ({x}, {y})");
+    }
 }
