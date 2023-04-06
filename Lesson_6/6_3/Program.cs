@@ -21,7 +21,7 @@ Fib(n);
 
 
 Console.Write("n=");
-	int n=int.Parse(Console.ReadLine()!);
+	// int n = int.Parse(Console.ReadLine()!);
 	/*
 	void Fibonacci(int n){
 	    int a=0;
